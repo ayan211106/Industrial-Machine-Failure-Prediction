@@ -1,0 +1,9 @@
+[ 2026-10-05 20:34:31,717 ] 23 root - INFO - Entered the data ingestion method or component
+[ 2026-10-05 20:34:31,746 ] 26 root - INFO - Read the dataset as dataframe
+[ 2026-10-05 20:34:31,766 ] 32 root - INFO - Train test split initiated
+[ 2026-10-05 20:34:31,822 ] 39 root - INFO - Ingestion of the data is completed
+[ 2026-10-05 20:34:31,834 ] 73 root - INFO - Read train and test data completed
+[ 2026-10-05 20:34:31,835 ] 87 root - INFO - Feature engineering completed
+[ 2026-10-05 20:34:31,835 ] 91 root - INFO - Obtaining preprocessing object
+[ 2026-10-05 20:34:31,835 ] 52 root - INFO - Categorical columns: ['Type']
+[ 2026-10-05 20:34:31,836 ] 53 root - INFO - Numerical columns: ['Air temperature [K]', 'Process temperature [K]', 'Rotational speed [rpm]', 'Torque [Nm]', 'Tool wear [min]', 'Temperature difference', 'Mechanical power']

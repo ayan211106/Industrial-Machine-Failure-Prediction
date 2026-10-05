@@ -8,6 +8,7 @@ Requires-Dist: pandas
 Requires-Dist: scikit-learn
 Requires-Dist: matplotlib
 Requires-Dist: seaborn
+Requires-Dist: dill
 Requires-Dist: shap
 Requires-Dist: xgboost
 Requires-Dist: catboost

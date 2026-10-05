@@ -3,6 +3,7 @@ pandas
 scikit-learn
 matplotlib
 seaborn
+dill
 shap
 xgboost
 catboost
