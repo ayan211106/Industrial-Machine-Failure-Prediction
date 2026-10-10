@@ -114,6 +114,14 @@ class DataTransformation:
 
             input_feature_test_arr = preprocessing_obj.transform(input_feature_test_df)
 
+            os.makedirs("artifacts", exist_ok=True)
+
+            np.save( "artifacts/X_train_transformed.npy",input_feature_train_arr)
+
+            np.save( "artifacts/X_test_transformed.npy",input_feature_test_arr)
+
+            np.save("artifacts/y_test.npy",np.asarray(target_feature_test_df))
+
             logging.info("Preprocessing completed")
 
             train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]

@@ -1,0 +1,19 @@
+[ 2026-10-10 14:06:57,823 ] 25 root - INFO - Entered the data ingestion method or component
+[ 2026-10-10 14:06:57,841 ] 28 root - INFO - Read the dataset as dataframe
+[ 2026-10-10 14:06:57,858 ] 34 root - INFO - Train test split initiated
+[ 2026-10-10 14:06:57,902 ] 41 root - INFO - Ingestion of the data is completed
+[ 2026-10-10 14:06:57,912 ] 73 root - INFO - Read train and test data completed
+[ 2026-10-10 14:06:57,913 ] 87 root - INFO - Feature engineering completed
+[ 2026-10-10 14:06:57,913 ] 91 root - INFO - Obtaining preprocessing object
+[ 2026-10-10 14:06:57,913 ] 52 root - INFO - Categorical columns: ['Type']
+[ 2026-10-10 14:06:57,913 ] 53 root - INFO - Numerical columns: ['Air temperature [K]', 'Process temperature [K]', 'Rotational speed [rpm]', 'Torque [Nm]', 'Tool wear [min]', 'Temperature difference', 'Mechanical power']
+[ 2026-10-10 14:06:57,915 ] 109 root - INFO - Applying preprocessing object on training dataframe
+[ 2026-10-10 14:06:57,925 ] 113 root - INFO - Applying preprocessing object on testing dataframe
+[ 2026-10-10 14:06:57,931 ] 125 root - INFO - Preprocessing completed
+[ 2026-10-10 14:06:57,932 ] 137 root - INFO - Saved preprocessing object.
+[ 2026-10-10 14:06:57,932 ] 51 root - INFO - Reading transformed train and test data
+[ 2026-10-10 14:06:57,932 ] 62 root - INFO - Splitting features and target completed
+[ 2026-10-10 14:10:10,659 ] 155 root - INFO - Best model selected: Gradient Boosting
+[ 2026-10-10 14:10:10,659 ] 156 root - INFO - Best CV PR-AUC: 0.8914
+[ 2026-10-10 14:10:10,665 ] 169 root - INFO - Final test evaluation completed
+[ 2026-10-10 14:10:10,678 ] 207 root - INFO - Winning model and threshold saved successfully

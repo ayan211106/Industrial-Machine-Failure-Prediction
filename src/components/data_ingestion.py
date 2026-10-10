@@ -9,6 +9,7 @@ from dataclasses import dataclass
 
 from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
+from src.components.model_explainer import ModelExplainer
 
 @dataclass
 class DataIngestionConfig:
@@ -56,4 +57,8 @@ if __name__=="__main__":
 
     modeltrainer=ModelTrainer()
     modeltrainer.initiate_model_trainer(train_arr,test_arr)
+
+    model_explainer = ModelExplainer()
+    model_explainer.initiate_model_explainer()
+
 
